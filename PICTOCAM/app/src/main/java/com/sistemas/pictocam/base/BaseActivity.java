@@ -27,6 +27,8 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import butterknife.OnClick;
+
 /**
  * Base class for activities that use the
  * <a href="{@docRoot}tools/extras/support-library.html">support library</a> action bar features.
@@ -506,14 +508,15 @@ public abstract class BaseActivity extends FragmentActivity implements AppCompat
         return mDelegate;
     }
 
-    @OnClick
-    protected abstract void OnClickView(View view);
+   // @OnClick
+    //protected abstract void OnClickView(View view);
 
-    public abstract void onSuccess(Object data);
+//    public abstract void onSuccess(Object data);
 
-    public abstract void onError(Object error);
+//    public abstract void onError(Object error);
 
-    public abstract void isOffline(Object data);
+  //  public abstract void isOffline(Object data);
+
 
 }
 
